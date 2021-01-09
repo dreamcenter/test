@@ -19,7 +19,7 @@
 + git checkout -b <branch>
 + git reflog
 + git merge <branch>
-+ git banch -d <branch>
++ git branch -d <branch>
 + git stash list
 + git stash
 + git stash apply [stash@{id}]
