@@ -1,0 +1,42 @@
++ git init
++ git add .
++ git commit -m ''
++ git diff 
++ git diff --cached/--staged 
++ git commit 
++ git commit -a -m '' 
++ git log 
++ git log --oneline
++ git rm <file> 
++ git mv <file-ori> <file-ne> 
++ git branch <branchname> 
++ git checkout <branchname> 
++ git branch 
++ git log --oneline --decorate --graph --all 
++ git config --global alias.abc <command> 
++ git branch -v 
++ git branch <branch1> <branch2>
++ git checkout -b <branch>
++ git reflog
++ git merge <branch>
++ git banch -d <branch>
++ git stash list
++ git stash
++ git stash apply [stash@{id}]
++ git stash drop [stash@{id}]
++ git stash pop
++ git checkout -- <file>
++ git reset HEAD <file>
++ git commit --amend
++ git tag
++ git tag l 'v1.0.0.*'
++ git tag v1.0.0.1
++ git show v1.0.0.1
++ git tag -d v1.0.0.1
++ git checkout v1.0.0.1
++ git checkout -b v1.0.0.1
++ git push origin v1.0.0.1
++ git push [origin] --tags
++ git rebase -i master
++ git rebase --continue
+
