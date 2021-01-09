@@ -1,0 +1,26 @@
++ git remote -v
++ git remote add <name> <giturl>
++ git config user.name <username>
++ git config user.email <email>
++ git push -u origin <branch>
++ git clone <giturl>
++ git config --global --unset user.name
++ git fetch <name>
++ git checkout <branch>
++ ll
++ git checkout main
++ git merge <branch>
++ git branch -u <branch>
++ git pull
++ git branch -vv
++ git checkout -b <branch> <branch>
++ git checkout --track <origin-branch>
++ git push origin --delete <branch>
++ git remote prune origin -dry -run
++ git remote prune origin
++ git branch -a
++ git push origin :<branch>
++ git push origin --delete tag <tagname>
++ git tag -d <tagname>
++ git push origin :<tagname>
++ git branch -u <origin/branch>
