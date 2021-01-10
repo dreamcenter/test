@@ -16,7 +16,7 @@
 + git checkout -b <branch> <branch>
 + git checkout --track <origin-branch>
 + git push origin --delete <branch>
-+ git remote prune origin -dry -run
++ git remote prune origin --dry-run
 + git remote prune origin
 + git branch -a
 + git push origin :<branch>
